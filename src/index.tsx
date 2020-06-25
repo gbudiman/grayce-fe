@@ -9,6 +9,7 @@ import { toast } from 'react-toastify';
 import App from './app/App';
 import * as serviceWorker from './serviceWorker';
 import persistedStore from './app/store';
+import "react-toggle/style.css";
 
 const { store, persistor } = persistedStore();
 const { apiUrl } = remote();
